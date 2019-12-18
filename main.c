@@ -9,6 +9,7 @@
 /* The begin of include */
 #include <stdio.h>
 #include "Arithmetic.h"
+#include "Structlearn.h"
 /* The end of include */
 /**
  * @description: The main intence
@@ -16,15 +17,6 @@
  * @return: 
  * @author: Roman.Liu
  */
-//1#pragma pack(2)
-struct S
-{
-    char a[20];
-    char b;
-    double c;
-    int *e;
-};
-
 int main(void)
 {
     volatile  int arr[] = {22, 34, 3, 32, 82, 55, 89, 50, 37, 5, 64, 35, 9, 70 };
@@ -44,6 +36,9 @@ int main(void)
     insertsort(arr3,len);
     printf("插入排序\r\n");
     Printf_Arry(arr3, len);  /* 打印数组 */
-    printf("%d",sizeof(struct S));
+
+    ShowSizeof();
+
     return 0;
+
 }
