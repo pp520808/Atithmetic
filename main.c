@@ -16,7 +16,7 @@
  * @return: 
  * @author: Roman.Liu
  */
-//#pragma pack(2)
+//1#pragma pack(2)
 struct S
 {
     char a[20];
