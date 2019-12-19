@@ -62,5 +62,6 @@ unsigned char my_free(void *mem_pointer)
         mmt[i] =0;
     }
     mem_pointer = 0x00000000L;
-    return 1;
+    return 1;    
+                                                                                                                                                                                                                        
 }
